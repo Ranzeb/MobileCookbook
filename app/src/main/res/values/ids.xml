@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Layout -->
+    <item type="id" name="proteinText" />
+    <item type="id" name="carboText" />
+    <item type="id" name="fatText" />
+    <item type="id" name="kcalText" />
+
+
+    <!-- Input -->
+    <item type="id" name="proteinInput" />
+    <item type="id" name="carboInput" />
+    <item type="id" name="fatInput" />
+    <item type="id" name="kcalInput" />
+
+</resources>

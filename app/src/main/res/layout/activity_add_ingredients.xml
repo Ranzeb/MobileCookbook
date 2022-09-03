@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddIngredients">
+
+    <include android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_marginTop="?attr/actionBarSize"
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/toolbar"
+            android:text="@string/ingrediente"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/ingredientNameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/ingredientName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:cursorVisible="true"
+                android:hint="@string/nome_ingrediente"
+
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
+                android:textColorLink="@android:color/black"
+                android:textCursorDrawable="@null"
+                android:textStyle="bold|italic" />
+            <!-- android:textAllCaps="true" -->
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/ingredientQuantityLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/ingredientQuantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:cursorVisible="true"
+                android:hint="@string/quantit_ingrediente"
+
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
+                android:textColorLink="@android:color/black"
+                android:textCursorDrawable="@null"
+                android:textStyle="bold|italic" />
+            <!-- android:textAllCaps="true" -->
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LinearHorizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/mybutton_blue"
+            android:text="@string/aggiungi_ingrediente"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

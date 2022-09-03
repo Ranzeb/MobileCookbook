@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.rranz.ricettario">
+
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- Include following permission if you load images from Internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.apps.photos.permission.GOOGLE_PHOTOS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_cutlery"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_cutlery"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SingleRecipeActivity"></activity>
+        <activity android:name=".ZipActivity" />
+        <activity android:name=".AddTags" />
+        <activity android:name=".AddIngredients" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddActivity"
+            android:label="AddActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RandomActivity"
+            android:label="RandomActivity"
+            android:parentActivityName=".DishSelectionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DishSelectionActivity"
+            android:label="dishSelectionActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ViewActivity"
+            android:label="ViewActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".CardActivity" />
+        <activity android:name=".SearchActivity" />
+        <activity
+            android:name=".SelectedActivity"
+            android:label="SelectedActivity"
+            android:parentActivityName=".ViewActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+
+    <LinearLayout
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+    <RelativeLayout
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <TextView
+            android:id="@+id/textGrid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:text="@string/vuoi_esportare_tutte_le_ricette"
+            android:textColor="@android:color/white"
+            android:textSize="28sp" />
+
+    </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/progress_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+
+        android:gravity="center_vertical"
+        android:textColor="#000"
+        android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btn_zip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/progress_text_view"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/mybutton_blue"
+            android:padding="10dp"
+            android:text="@string/esporta_ricetta"
+            android:textSize="22sp" />
+
+
+
+</RelativeLayout>

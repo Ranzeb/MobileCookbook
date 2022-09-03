@@ -1,0 +1,152 @@
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:shrinkColumns="*"
+    android:stretchColumns="*"
+    android:background="@drawable/shape"
+    android:id="@+id/KcalPopup"
+    android:layout_marginRight="20dp"
+    >
+
+
+    <!-- Row 1 with single column -->
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/txtValNutrizionali"
+            android:text="@string/valori_nutrizionali"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:textSize="20sp"
+
+            android:gravity="center"
+
+            />
+
+    </TableRow>
+
+    <!-- Row 2 with 3 columns -->
+
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/txtKcal"
+            android:text="@string/kcal"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:padding="20dip"
+            android:gravity="left"/>
+
+
+
+        <TextView
+            android:id="@+id/recipeKcal"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:padding="20dip"
+            android:gravity="right"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/txtProtein"
+            android:text="@string/proteine"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:textSize="18sp"
+            android:gravity="left"/>
+
+
+
+        <TextView
+            android:id="@+id/recipeProtein"
+            android:layout_weight="1" android:background="#ffffff"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:textSize="18sp"
+            android:gravity="right"/>
+
+    </TableRow>
+
+    <!-- Row 3 with 3 columns -->
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/txtCarbo"
+            android:text="@string/carboidrati"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:textSize="18sp"
+            android:gravity="left"/>
+
+
+
+        <TextView
+            android:id="@+id/recipeCarbo"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:padding="20dip"
+            android:gravity="right"/>
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/txtFat"
+            android:text="@string/grassi"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:textSize="18sp"
+            android:gravity="left"/>
+
+
+
+        <TextView
+            android:id="@+id/recipeFat"
+            android:layout_weight="1" android:background="#ffffff"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:textSize="18sp"
+            android:gravity="right"/>
+
+    </TableRow>
+
+
+
+
+</TableLayout>
+

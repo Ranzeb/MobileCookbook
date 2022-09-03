@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Ricettario</string>
+    <string name="kcal">Kcal</string>
+    <string name="tags">Tags:</string>
+    <string name="categoria">Categoria:</string>
+    <string name="valori_nutrizionali">Valori nutrizionali:</string>
+    <string name="nome_ricetta">Nome Ricetta</string>
+    <string name="ricetta">Ricetta:</string>
+    <string name="ingrediente">Ingrediente:</string>
+    <string name="nome_ingrediente">Nome Ingrediente</string>
+    <string name="quantit_ingrediente">Quantità Ingrediente</string>
+    <string name="aggiungi_ingrediente">Aggiungi Ingrediente</string>
+    <string name="tag">Tag:</string>
+    <string name="inserisci_tag">Inserisci tag:</string>
+    <string name="aggiungi_tag">Aggiungi Tag</string>
+    <string name="textview">TextView</string>
+    <string name="antipasti">Antipasti</string>
+    <string name="secondi_piatti">Secondi piatti</string>
+    <string name="contorni">Contorni</string>
+    <string name="dolci">Dolci</string>
+
+    <string name="ecco_un_idea_per_il_tuo_pasto">Ecco un\'idea per il tuo pasto!</string>
+    <string name="primi_piatti">Primi piatti</string>
+    <string name="ingredienti">Ingredienti:</string>
+    <string name="descrizione">Descrizione:</string>
+    <string name="vuoi_esportare_tutte_le_ricette">VUOI ESPORTARE TUTTE LE RICETTE?</string>
+    <string name="non_ho_ancora_iniziato">Non ho ancora iniziato</string>
+    <string name="esporta_ricetta">Esporta ricetta</string>
+    <string name="card_title">Card Title</string>
+    <string name="non_sai_cosa_cucinare">Non sai cosa cucinare?</string>
+    <string name="vedi_ricette">Vedi Ricette</string>
+    <string name="ricettario">RICETTARIO</string>
+    <string name="aggiungi_ricetta">Aggiungi Ricette</string>
+    <string name="esporta">Esporta</string>
+    <string name="grassi">Grassi:</string>
+    <string name="carboidrati">Carboidrati:</string>
+    <string name="proteine">Proteine:</string>
+    <string name="numero_persone">Numero Persone</string>
+    <string name="descrizione_ricetta">Descrizione Ricetta</string>
+    <string name="immagini">Immagini:</string>
+    <string name="salva_ricetta">Salva Ricetta</string>
+
+    <string-array name="category_array">
+        <item>Antipasti</item>
+        <item>Primi</item>
+        <item>Secondi</item>
+        <item>Contorni</item>
+        <item>Dolci</item>
+    </string-array>
+
+
+</resources>
